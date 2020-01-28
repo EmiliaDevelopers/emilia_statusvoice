@@ -1,0 +1,289 @@
+html {
+	height: 100%;
+	width:100%;
+}
+
+body {
+	overflow: hidden;
+	min-height: 100%;
+	width: 100%;
+}
+
+#status_list {
+	position: absolute;
+	right: 90px;
+	bottom: -11.50px;
+	transform: rotateZ(270deg);
+	/*opacity: 0.9;*/
+}
+
+.status {
+	margin-top: 0.3em;
+	background-color: rgb(0, 0, 0, 0.5);
+	border-radius: 7px;
+	overflow: hidden;
+}
+
+.status_inner {
+	width: 2.5em;
+}
+
+.status_val {
+	height: 2.5em;
+}
+
+.hunger i {
+    position: absolute;
+    left: 9px;
+	top: 17.50px;
+	color: white;
+    transform: rotate(90deg);
+	z-index: 1;
+}
+
+.thirst i {
+    position: absolute;
+    left: 11px;
+	top: 62.30px;
+	color: white;
+    transform: rotate(90deg);
+	z-index: 1;
+}
+
+#heal {
+    position: absolute;
+    right: 155px;
+    bottom: 13px;
+    width: 2.5em;
+    height: 2.5em;
+    padding: 0;
+    float: center;
+    background-color: rgb(0, 0, 0, 0.5);
+	transform: rotateZ(270deg);
+	border-radius: 7px;
+	overflow: hidden;
+}
+
+#heal i {
+    position: absolute;
+    left: 8.30px;
+	top: 12px;
+	color: white;
+    transform: rotate(90deg);
+	z-index: 1;
+}
+
+#heal_inner {
+	width: 2.5em;
+    height: 2.5em;
+}
+
+#armor {
+    position: absolute;
+    right: 200px;
+    bottom: 13px;
+    width: 2.5em;
+    height: 2.5em;
+    padding: 0;
+    float: center;
+    background-color: rgb(0, 0, 0, 0.5);
+	transform: rotateZ(270deg);
+	border-radius: 7px;
+	overflow: hidden;
+}
+
+#armor i {
+    position: absolute;
+    left: 8.50px;
+	top: 12.50px;
+	color: white;
+    transform: rotate(90deg);
+	z-index: 1;
+}
+
+#armor_inner {
+	width: 2.5em;
+    height: 2.5em;
+}
+
+#stamina {
+    position: absolute;
+    right: 200px;
+    bottom: 13px;
+    width: 2.5em;
+    height: 2.5em;
+    padding: 0;
+    float: center;
+    background-color: rgb(0, 0, 0, 0.5);
+	transform: rotateZ(270deg);
+	border-radius: 7px;
+	overflow: hidden;
+}
+
+#stamina i {
+    position: absolute;
+    left: 12.50px;
+	top: 12.50px;
+	color: white;
+    transform: rotate(90deg);
+	z-index: 1;
+}
+
+#stamina_inner {
+	width: 2.5em;
+    height: 2.5em;
+}
+
+#stamina2 {
+    position: absolute;
+    right: 245px;
+    bottom: 13px;
+    width: 2.5em;
+    height: 2.5em;
+    padding: 0;
+    float: center;
+    background-color: rgb(0, 0, 0, 0.5);
+	transform: rotateZ(270deg);
+	border-radius: 7px;
+	overflow: hidden;
+}
+
+#stamina2 i {
+    position: absolute;
+    left: 12.50px;
+	top: 12.50px;
+	color: white;
+    transform: rotate(90deg);
+	z-index: 1;
+}
+
+#stamina_inner2 {
+	width: 2.5em;
+    height: 2.5em;
+}
+
+#diving {
+    position: absolute;
+    right: 200px;
+    bottom: 13px;
+    width: 2.5em;
+    height: 2.5em;
+    padding: 0;
+    float: center;
+    background-color: rgb(0, 0, 0, 0.5);
+	transform: rotateZ(270deg);
+	border-radius: 7px;
+	overflow: hidden;
+}
+
+#diving i {
+    position: absolute;
+    left: 5px;
+	top: 12.25px;
+	color: white;
+    transform: rotate(90deg);
+	z-index: 1;
+}
+
+#diving_inner {
+	width: 2.5em;
+    height: 2.5em;
+}
+
+#diving2 {
+    position: absolute;
+    right: 245px;
+    bottom: 13px;
+    width: 2.5em;
+    height: 2.5em;
+    padding: 0;
+    float: center;
+    background-color: rgb(0, 0, 0, 0.5);
+	transform: rotateZ(270deg);
+	border-radius: 7px;
+	overflow: hidden;
+}
+
+#diving2 i {
+    position: absolute;
+    left: 5px;
+	top: 12.25px;
+	color: white;
+    transform: rotate(90deg);
+	z-index: 1;
+}
+
+#diving_inner2 {
+	width: 2.5em;
+    height: 2.5em;
+}
+
+#diving3 {
+    position: absolute;
+    right: 290px;
+    bottom: 13px;
+    width: 2.5em;
+    height: 2.5em;
+    padding: 0;
+    float: center;
+    background-color: rgb(0, 0, 0, 0.5);
+	transform: rotateZ(270deg);
+	border-radius: 7px;
+	overflow: hidden;
+}
+
+#diving3 i {
+    position: absolute;
+    left: 5px;
+	top: 12.25px;
+	color: white;
+    transform: rotate(90deg);
+	z-index: 1;
+}
+
+#diving_inner3 {
+	width: 2.5em;
+    height: 2.5em;
+}
+
+#boxHeal, #boxArmor, #boxStamina, #boxStamina2, #boxDiving, #boxDiving2, #boxDiving3 {
+    width: 100%;
+    height: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+#boxHeal {
+    background: #f4003e;
+}
+
+#boxArmor {
+    background: #006bff;
+}
+
+#boxStamina {
+    background: #ff9000;
+}
+
+#boxStamina2 {
+    background: #ff9000;
+}
+
+#boxDiving	{
+    background: #00cc99;
+}
+
+#boxDiving2	{
+    background: #00cc99;
+}
+
+#boxDiving3	{
+    background: #00cc99;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+@keyframes blinker-stop {  
+  50% { opacity: 1; }
+}

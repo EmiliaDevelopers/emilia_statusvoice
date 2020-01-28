@@ -9,9 +9,9 @@ FiveM is a modification for Grand Theft Auto V [FiveM](https://fivem.net/)
 # Download & Installation:
 1) Download the .zip.
 2) Extract the .zip or Open the .zip.
-3) Import `items.sql` in your database
-4) Place `emilia_gachapon` in your Resources 
-5) Add `start emilia_gachapon` to your server.cfg
+3) Import `database.sql` in your database
+4) Place `emilia_statusvoice` in your Resources 
+5) Add `start esx_status` `start emilia_statusvoice` to your server.cfg
 
 # Discord 
 <p align="center">

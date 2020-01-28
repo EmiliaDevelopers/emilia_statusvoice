@@ -1,6 +1,6 @@
 # About Emilia_Statusvoice
 ### SCREEN
-![alt text]( )
+![alt text](https://cdn.discordapp.com/attachments/659402544912793600/664724619692867584/Capture.PNG)
 
 Developers By" [Emilia](https://github.com/Emilia-Dev) 
 FiveM is a modification for Grand Theft Auto V [FiveM](https://fivem.net/)

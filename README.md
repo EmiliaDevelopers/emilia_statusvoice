@@ -11,7 +11,7 @@ FiveM is a modification for Grand Theft Auto V [FiveM](https://fivem.net/)
 2) Extract the .zip or Open the .zip.
 3) Import `database.sql` in your database
 4) Place `emilia_statusvoice` in your Resources 
-5) Add `start esx_status` `start emilia_statusvoice` to your server.cfg
+5) Add `start esx_status` `esx_voice` to your server.cfg
 
 # Discord 
 <p align="center">

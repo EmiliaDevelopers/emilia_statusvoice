@@ -1,4 +1,4 @@
-# About Emilia_Statusvoice
+# About Emilia_StatusVoice
 ### SCREEN
 ![alt text](https://cdn.discordapp.com/attachments/659402544912793600/664724619692867584/Capture.PNG)
 

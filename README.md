@@ -6,7 +6,11 @@ Developers By" [Emilia](https://github.com/Emilia-Dev)
 FiveM is a modification for Grand Theft Auto V [FiveM](https://fivem.net/)
 ### I don't allow to sell this script or pretended as yours even this script is not working.
 
-### Donet Emilia Developers: https://bit.ly/2SIylVI
+* Support me on Patreon to keep this project alive:
+
+[![Support me and the project on Patreon](http://i.imgur.com/dyePK6Q.png)](https://bit.ly/2SIylVI)
+
+[(old Emilia, thank you to the donors)]( ) 
 
 # Download & Installation:
 1) Download the .zip.

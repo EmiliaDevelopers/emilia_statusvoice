@@ -21,7 +21,7 @@ FiveM is a modification for Grand Theft Auto V [FiveM](https://fivem.net/)
 
 # Discord 
 <p align="center">
-  <a href="https://discord.gg/BmvG9sm">
+  <a href="https://discord.gg/">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToc0_EENZ5K4P6ZUQLMKlWsGBOoMO6LW5RXrX1lzJtmGp5QRxR&s?style=shield" alt="Discord Server">
   </a>
 </p>

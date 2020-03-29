@@ -144,7 +144,7 @@ end)
 -- Pause menu disable hud display
 Citizen.CreateThread(function()
 	while true do
-		Citizen.Wait(100)
+		Citizen.Wait(300)
 
 		if IsPauseMenuActive() and not isPaused then
 			isPaused = true

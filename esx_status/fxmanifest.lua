@@ -1,9 +1,9 @@
 fx_version 'adamant'
 game 'gta5'
 
-description 'ESX Status Bar By. Emilia Dev'
+description 'ESX By. Emilia Dev'
 
-version '1.0.0'
+version '1.1.0'
 
 server_scripts {
 	'@mysql-async/lib/MySQL.lua',

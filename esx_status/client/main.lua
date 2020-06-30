@@ -179,7 +179,7 @@ Citizen.CreateThread(function()
             health = GetEntityHealth(GetPlayerPed(-1)) - 100,
             armor = GetPedArmour(GetPlayerPed(-1)),
             stamina = 100 - GetPlayerSprintStaminaRemaining(PlayerId()),
-			diving = 2.5 * GetPlayerUnderwaterTimeRemaining(PlayerId())
+			diving = GetPlayerUnderwaterTimeRemaining(PlayerId()) * 10.00,
         })
     end
 end)

@@ -87,3 +87,22 @@ function SaveData()
 end
 
 SaveData()
+
+-- Update Checker
+local CurrentVersion = '1.1.0'
+
+PerformHttpRequest('https://raw.githubusercontent.com/EmiliaDevelopers/emilia_statusvoice/master/version', function(Error, NewestVersion, Header)
+		print('[^2emilia_statusvoice^0] Current Version: ' .. CurrentVersion)
+		print('[^2emilia_statusvoice^0] Updater version: ' .. NewestVersion)
+		if CurrentVersion ~= NewestVersion then
+			print('\n')
+			print('[^2Updater version^0]')
+			print('## ^2Please check the GitHub and download the last update^0')
+			print('## ^3https://github.com/EmiliaDevelopers/emilia_statusvoice^0')
+		else
+		    print('\n')
+			print('[^2emilia_statusvoice^0] Authenticated with emilia.developers')
+			print('[^2emilia_statusvoice^0] Thanks you! Supporpting this script Welcome!')
+		end
+		print('\n')
+end)

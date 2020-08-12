@@ -96,13 +96,11 @@ PerformHttpRequest('https://raw.githubusercontent.com/EmiliaDevelopers/emilia_st
 		print('[^2emilia_statusvoice^0] Updater version: ' .. NewestVersion)
 		if CurrentVersion ~= NewestVersion then
 			print('\n')
-			print('[^2Updater version^0]')
-			print('## ^2Please check the GitHub and download the last update^0')
-			print('## ^3https://github.com/EmiliaDevelopers/emilia_statusvoice^0')
+			print('[^4emilia_statusvoice^0] You"re not running the newest stable version of emilia_-ui-statusvoice please updater at https://github.com/EmiliaDevelopers')
 		else
 		    print('\n')
-			print('[^2emilia_statusvoice^0] Authenticated with emilia.developers')
+			print('[^2emilia_statusvoice^0] Authenticated with emilia.developers API: https://Free-5zW3pHVzwwlcqpam.guests.emilia.developers/')
 			print('[^2emilia_statusvoice^0] Thanks you! Supporpting this script Welcome!')
 		end
-		print('\n')
+		print('\n')	
 end)

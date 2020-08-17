@@ -142,7 +142,7 @@
 					$('#diving_inner3').hide();
 					$('#boxDiving3').hide();
 					
-					if (data.diving >= 100) {
+					if (data.diving >= 25) {
 					
 						$('#diving2').hide();
 						$('#diving_inner2').hide();
@@ -152,7 +152,7 @@
 							
 						$('#diving_inner2').css('animation', 'blinker 1s linear infinite');
 						$('#diving_inner2').css('background-color', 'rgb(255, 0, 0, 0.5)');
-						$('#boxDiving2').css('width', data.diving + '%');
+						$('#boxDiving2').css('width', data.diving * 4 + '%');
 						$('#boxDiving2').show();
 						$('#diving2').show();
 						$('#diving_inner2').show();
@@ -161,7 +161,7 @@
 						
 						$('#diving_inner2').css('animation', 'blinker-stop');
 						$('#diving_inner2').css('background-color', 'transparent');		
-						$('#boxDiving2').css('width', data.diving + '%');
+						$('#boxDiving2').css('width', data.diving * 4 + '%');
 						$('#boxDiving2').show();
 						$('#diving2').show();
 						$('#diving_inner2').show();
@@ -174,7 +174,7 @@
 					$('#diving_inner2').hide();
 					$('#boxDiving2').hide();
 					
-					if (data.diving >= 100) {
+					if (data.diving >= 25) {
 					
 						$('#diving3').hide();
 						$('#diving_inner3').hide();
@@ -184,7 +184,7 @@
 							
 						$('#diving_inner3').css('animation', 'blinker 1s linear infinite');
 						$('#diving_inner3').css('background-color', 'rgb(255, 0, 0, 0.5)');
-						$('#boxDiving3').css('width', data.diving + '%');
+						$('#boxDiving3').css('width', data.diving * 4 + '%');
 						$('#boxDiving3').show();
 						$('#diving3').show();
 						$('#diving_inner3').show();
@@ -193,7 +193,7 @@
 						
 						$('#diving_inner3').css('animation', 'blinker-stop');
 						$('#diving_inner3').css('background-color', 'transparent');		
-						$('#boxDiving3').css('width', data.diving + '%');
+						$('#boxDiving3').css('width', data.diving * 4 + '%');
 						$('#boxDiving3').show();
 						$('#diving3').show();
 						$('#diving_inner3').show();
@@ -247,7 +247,7 @@
 					$('#diving_inner2').hide();
 					$('#boxDiving2').hide();
 					
-					if (data.diving >= 100) {
+					if (data.diving >= 25) {
 					
 						$('#diving').hide();
 						$('#diving_inner').hide();
@@ -257,7 +257,7 @@
 							
 						$('#diving_inner').css('animation', 'blinker 1s linear infinite');
 						$('#diving_inner').css('background-color', 'rgb(255, 0, 0, 0.5)');
-						$('#boxDiving').css('width', data.diving + '%');
+						$('#boxDiving').css('width', data.diving * 4 + '%');
 						$('#boxDiving').show();
 						$('#diving').show();
 						$('#diving_inner').show();
@@ -266,7 +266,7 @@
 						
 						$('#diving_inner').css('animation', 'blinker-stop');
 						$('#diving_inner').css('background-color', 'transparent');		
-						$('#boxDiving').css('width', data.diving + '%');
+						$('#boxDiving').css('width', data.diving * 4 + '%');
 						$('#boxDiving').show();
 						$('#diving').show();
 						$('#diving_inner').show();
@@ -279,7 +279,7 @@
 					$('#diving_inner').hide();
 					$('#boxDiving').hide();
 					
-					if (data.diving >= 100) {
+					if (data.diving >= 25) {
 					
 						$('#diving2').hide();
 						$('#diving_inner2').hide();
@@ -289,7 +289,7 @@
 							
 						$('#diving_inner2').css('animation', 'blinker 1s linear infinite');
 						$('#diving_inner2').css('background-color', 'rgb(255, 0, 0, 0.5)');
-						$('#boxDiving2').css('width', data.diving + '%');
+						$('#boxDiving2').css('width', data.diving * 4 + '%');
 						$('#boxDiving2').show();
 						$('#diving2').show();
 						$('#diving_inner2').show();
@@ -298,7 +298,7 @@
 						
 						$('#diving_inner2').css('animation', 'blinker-stop');
 						$('#diving_inner2').css('background-color', 'transparent');		
-						$('#boxDiving2').css('width', data.diving + '%');
+						$('#boxDiving2').css('width', data.diving * 4 + '%');
 						$('#boxDiving2').show();
 						$('#diving2').show();
 						$('#diving_inner2').show();
